@@ -1,0 +1,29 @@
+uuid: 9571798c-a46f-4d83-87f6-14c2c058ba37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria_
+    - node.type.curso
+    - taxonomy.vocabulary.vocabulario_cursos
+id: node.curso.field_categoria_
+field_name: field_categoria_
+entity_type: node
+bundle: curso
+label: 'Categoría '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vocabulario_cursos: vocabulario_cursos
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

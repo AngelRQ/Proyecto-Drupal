@@ -1,0 +1,12 @@
+uuid: f06041de-473e-498c-9af7-cf397dbd4a4d
+langcode: en
+status: true
+dependencies: {  }
+id: formulario_practica
+label: 'Formulario practica'
+recipients:
+  - admin@example.com
+reply: ''
+weight: 0
+message: 'Formulario enviado'
+redirect: ''

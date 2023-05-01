@@ -1,0 +1,8 @@
+uuid: a8b20706-73f7-4607-b902-a6d6ad0b2800
+langcode: en
+status: true
+dependencies: {  }
+name: 'Vocabulario cursos'
+vid: vocabulario_cursos
+description: 'vocabulario para categorizar cursos.'
+weight: 0
