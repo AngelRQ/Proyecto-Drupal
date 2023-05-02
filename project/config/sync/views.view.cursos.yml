@@ -329,8 +329,14 @@ display:
             offset_label: Offset
       defaults:
         pager: false
+        use_more: false
+        use_more_always: false
+        use_more_text: false
         fields: false
       display_description: ''
+      use_more: true
+      use_more_always: true
+      use_more_text: 'Ver más'
       display_extenders: {  }
       allow:
         items_per_page: false
