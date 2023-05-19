@@ -1,13 +1,13 @@
-uuid: f987fa99-63d7-4255-aedb-6e22e8fc6201
+uuid: ff711d34-d810-49db-beab-3f0dc012d3d5
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.curso.body
-    - field.field.node.curso.field_categoria_
-    - field.field.node.curso.field_titulo
-    - field.field.node.curso.field_titulo_programa
+    - field.field.node.curso.field_carrera_a_la_que_pertenece
+    - field.field.node.curso.field_codigo_del_curso
+    - field.field.node.curso.field_programa_del_curso
     - node.type.curso
   module:
     - text
@@ -31,6 +31,6 @@ content:
     weight: 100
     region: content
 hidden:
-  field_categoria_: true
-  field_titulo: true
-  field_titulo_programa: true
+  field_carrera_a_la_que_pertenece: true
+  field_codigo_del_curso: true
+  field_programa_del_curso: true

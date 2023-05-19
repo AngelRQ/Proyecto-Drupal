@@ -1,4 +1,4 @@
-uuid: e5fad52a-59ae-4a6e-90b5-bac0035fa8a6
+uuid: dc7e6478-58ca-4f04-9857-fb502207b896
 langcode: en
 status: true
 dependencies:
@@ -11,9 +11,9 @@ id: node.curso.body
 field_name: body
 entity_type: node
 bundle: curso
-label: Descripción
-description: 'se describe el programa'
-required: true
+label: 'Descripción del curso'
+description: ''
+required: false
 translatable: true
 default_value: {  }
 default_value_callback: ''

@@ -1,0 +1,29 @@
+uuid: 8c4df871-6193-4f64-bd23-d1c63fa6fddc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_carrera_a_la_que_pertenece
+    - node.type.carrera
+    - node.type.curso
+id: node.curso.field_carrera_a_la_que_pertenece
+field_name: field_carrera_a_la_que_pertenece
+entity_type: node
+bundle: curso
+label: 'Carrera a la que pertenece'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      carrera: carrera
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

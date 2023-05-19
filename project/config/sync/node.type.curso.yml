@@ -1,4 +1,4 @@
-uuid: fc265a3f-f199-4483-99c3-5712e1614882
+uuid: d06637f1-4c9c-406b-9ed3-cbb8913f917d
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Curso
 type: curso
-description: 'Content type de tipo curso'
+description: ''
 help: ''
 new_revision: true
 preview_mode: 1
