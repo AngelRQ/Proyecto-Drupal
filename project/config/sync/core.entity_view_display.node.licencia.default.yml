@@ -1,0 +1,38 @@
+uuid: 5a05ede2-4d5e-47d3-95b2-352dacf2c3e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.licencia.field_archivo_licencia
+    - field.field.node.licencia.field_tipo_licencia
+    - node.type.licencia
+  module:
+    - user
+id: node.licencia.default
+targetEntityType: node
+bundle: licencia
+mode: default
+content:
+  field_archivo_licencia:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_tipo_licencia:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
