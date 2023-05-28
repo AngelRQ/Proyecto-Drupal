@@ -1,16 +1,16 @@
-uuid: 028c5630-0645-4ae3-82db-f00764064abf
+uuid: c7e159df-6fac-4ecf-b511-45862e452191
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_campus_en_que_se_imparte
-    - node.type.carrera
-    - taxonomy.vocabulary.campus
-id: node.carrera.field_campus_en_que_se_imparte
-field_name: field_campus_en_que_se_imparte
-entity_type: node
-bundle: carrera
-label: 'Campus en que se imparte'
+    - field.storage.media.field_referencia_licencia
+    - media.type.licencia
+    - taxonomy.vocabulary.licencias
+id: media.licencia.field_referencia_licencia
+field_name: field_referencia_licencia
+entity_type: media
+bundle: licencia
+label: Referencia-Licencia
 description: ''
 required: true
 translatable: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      campus: campus
+      licencias: licencias
     sort:
       field: name
       direction: asc

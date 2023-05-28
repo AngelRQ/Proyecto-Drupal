@@ -1,0 +1,13 @@
+uuid: 7d704ff4-f119-4ea6-83bb-5cd773e6fb83
+langcode: en
+status: true
+dependencies: {  }
+id: licencia
+label: Archivos
+description: 'Media type para los archivos, solo debe permitir archivos PDF'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }
