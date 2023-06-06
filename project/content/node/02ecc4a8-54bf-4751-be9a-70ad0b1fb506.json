@@ -1,0 +1,219 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/node\/6?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/type\/node\/landingpage_galleryvideo"
+        },
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/revision_uid": [
+            {
+                "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/user\/0?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/uid": [
+            {
+                "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/user\/0?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/field_video_category": [
+            {
+                "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/taxonomy\/term\/3?_format=hal_json"
+            },
+            {
+                "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/field_video_file": [
+            {
+                "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/media\/1\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "02ecc4a8-54bf-4751-be9a-70ad0b1fb506"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "landingpage_galleryvideo"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2023-06-06T02:40:45+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6aa92270-bcec-48bf-921e-580c3e6185d8"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/user\/0?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6aa92270-bcec-48bf-921e-580c3e6185d8"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/field_video_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "4fd4692b-9b3e-457f-82e6-db48009a039c"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/type\/taxonomy_term\/categories"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ef2bd0e8-94a8-494c-a287-99885e855a15"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/relation\/node\/landingpage_galleryvideo\/field_video_file": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/media\/1\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/type\/media\/video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1e004007-fb5f-4428-8a9c-4e11caddd108"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Zelus",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2023-05-30T15:33:43+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2023-06-06T02:40:45+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_video_description": [
+        {
+            "value": "Aptent consectetuer facilisis genitus importunus melior molior nutus probo tincidunt. Brevitas ibidem olim refoveo similis sit ut. Dolus praesent tum vereor. Abdo abigo ideo jumentum meus minim utrum vero. Abdo lenis meus nimis sudo. Appellatio et eu lenis meus nostrud te veniam.\n\nAmet eros paulatim utinam vulputate. Abigo exputo ille neo probo qui sudo volutpat. Haero iriure metuo nimis nisl olim vulpes zelus. Consequat mauris ratis secundum. Gilvus ibidem illum pertineo populus sagaciter. Esse euismod loquor lucidus ludus tego. Aptent autem elit huic ideo probo rusticus velit vereor virtus.\n\nAliquip amet enim exerci macto volutpat. Acsi consequat secundum ulciscor valetudo. Hendrerit humo importunus inhibeo quis saluto vulpes. Abigo dignissim jumentum jus nunc oppeto validus vulputate. Antehabeo consectetuer erat et gravis te. Aliquam lenis nulla nunc premo quae quia sagaciter suscipit. Augue cogo distineo dolore gravis iaceo jugis letalis obruo sino. Acsi interdico plaga pneum ratis.\n\nBrevitas incassum quia singularis velit veniam. Feugiat nutus torqueo. Dolore quidne sit suscipit. Abdo eu euismod hos pneum quibus secundum. Caecus genitus sagaciter voco. Eros obruo pertineo praesent premo vero vulpes zelus. Damnum neo nobis saepius saluto suscipit typicus. Ad capto nunc occuro validus. Camur eligo natu vulputate. Comis conventio cui duis plaga premo ratis suscipit ullamcorper.\n\nDignissim genitus gilvus os praemitto quadrum qui quis vero. Caecus occuro pertineo quia tincidunt. Dolor duis genitus ulciscor verto ymo. Abluo adipiscing feugiat imputo luptatum natu occuro paulatim ratis rusticus. At natu nisl. Camur lucidus molior mos nunc paulatim si. Dolus exputo interdico iusto magna melior pagus refoveo valde vero.\n\nAbbas cogo ea eros exerci obruo persto voco. Duis natu populus quadrum ratis. Genitus huic lenis scisco ulciscor veniam. Decet eros feugiat nutus si. Amet enim exerci haero iaceo pecus praemitto singularis suscipit. Et nibh os pneum quis valetudo. Accumsan conventio ille nimis os pertineo singularis turpis vero. Facilisis quibus sagaciter sino suscipere. Acsi antehabeo at modo pagus.\n\nExputo nostrud quidne. Abluo consectetuer damnum dolore utrum velit. Adipiscing camur damnum eligo ille macto nobis populus quidne refoveo. Esse genitus luptatum suscipere. Amet jus ludus nisl ut.\n\nAbbas os paratus. Augue conventio ymo. Ea exerci huic mauris pala sed utinam vero. Aliquip gilvus incassum ludus persto saepius singularis virtus. Aliquip dolore ex gravis laoreet neque quae saepius sudo tation. Esca eum humo ille patria plaga tation.\n\nConsequat nunc paulatim sed tego. Dignissim dolor esse hendrerit probo singularis tego ulciscor validus. Blandit occuro sit. Brevitas similis tincidunt. Dignissim elit eum genitus natu singularis. Diam si tation. Exputo fere modo populus saluto.\n\nAdipiscing commoveo immitto vindico. Aliquam brevitas cui gilvus metuo pagus pala ratis si. Genitus ille immitto lobortis natu refoveo roto si tamen ut. Amet dolor lucidus. Aliquip consectetuer esca facilisi in interdico similis vicis. Distineo ille paulatim tamen. Dolus eros exerci interdico singularis utrum. Exerci feugiat venio. Dolor esse incassum lucidus luctus nobis quis venio volutpat. Obruo os vulputate. Consectetuer diam neque.\n\nFere hendrerit ibidem mauris olim premo vereor volutpat. Comis cui dignissim iriure pala proprius tego uxor velit. Aptent illum immitto iustum. Eum illum paulatim. Cogo comis ille paratus. Importunus neo olim pneum. Aliquip capto erat olim secundum ymo.\n\nBlandit comis pecus uxor. Gravis plaga pneum validus vulpes. Aliquip plaga torqueo. Augue gravis inhibeo jus ludus nulla plaga veniam. Cogo humo ludus pala quae saepius ullamcorper vicis wisi.\n\n",
+            "format": "plain_text",
+            "processed": "<p>Aptent consectetuer facilisis genitus importunus melior molior nutus probo tincidunt. Brevitas ibidem olim refoveo similis sit ut. Dolus praesent tum vereor. Abdo abigo ideo jumentum meus minim utrum vero. Abdo lenis meus nimis sudo. Appellatio et eu lenis meus nostrud te veniam.<\/p>\n<p>Amet eros paulatim utinam vulputate. Abigo exputo ille neo probo qui sudo volutpat. Haero iriure metuo nimis nisl olim vulpes zelus. Consequat mauris ratis secundum. Gilvus ibidem illum pertineo populus sagaciter. Esse euismod loquor lucidus ludus tego. Aptent autem elit huic ideo probo rusticus velit vereor virtus.<\/p>\n<p>Aliquip amet enim exerci macto volutpat. Acsi consequat secundum ulciscor valetudo. Hendrerit humo importunus inhibeo quis saluto vulpes. Abigo dignissim jumentum jus nunc oppeto validus vulputate. Antehabeo consectetuer erat et gravis te. Aliquam lenis nulla nunc premo quae quia sagaciter suscipit. Augue cogo distineo dolore gravis iaceo jugis letalis obruo sino. Acsi interdico plaga pneum ratis.<\/p>\n<p>Brevitas incassum quia singularis velit veniam. Feugiat nutus torqueo. Dolore quidne sit suscipit. Abdo eu euismod hos pneum quibus secundum. Caecus genitus sagaciter voco. Eros obruo pertineo praesent premo vero vulpes zelus. Damnum neo nobis saepius saluto suscipit typicus. Ad capto nunc occuro validus. Camur eligo natu vulputate. Comis conventio cui duis plaga premo ratis suscipit ullamcorper.<\/p>\n<p>Dignissim genitus gilvus os praemitto quadrum qui quis vero. Caecus occuro pertineo quia tincidunt. Dolor duis genitus ulciscor verto ymo. Abluo adipiscing feugiat imputo luptatum natu occuro paulatim ratis rusticus. At natu nisl. Camur lucidus molior mos nunc paulatim si. Dolus exputo interdico iusto magna melior pagus refoveo valde vero.<\/p>\n<p>Abbas cogo ea eros exerci obruo persto voco. Duis natu populus quadrum ratis. Genitus huic lenis scisco ulciscor veniam. Decet eros feugiat nutus si. Amet enim exerci haero iaceo pecus praemitto singularis suscipit. Et nibh os pneum quis valetudo. Accumsan conventio ille nimis os pertineo singularis turpis vero. Facilisis quibus sagaciter sino suscipere. Acsi antehabeo at modo pagus.<\/p>\n<p>Exputo nostrud quidne. Abluo consectetuer damnum dolore utrum velit. Adipiscing camur damnum eligo ille macto nobis populus quidne refoveo. Esse genitus luptatum suscipere. Amet jus ludus nisl ut.<\/p>\n<p>Abbas os paratus. Augue conventio ymo. Ea exerci huic mauris pala sed utinam vero. Aliquip gilvus incassum ludus persto saepius singularis virtus. Aliquip dolore ex gravis laoreet neque quae saepius sudo tation. Esca eum humo ille patria plaga tation.<\/p>\n<p>Consequat nunc paulatim sed tego. Dignissim dolor esse hendrerit probo singularis tego ulciscor validus. Blandit occuro sit. Brevitas similis tincidunt. Dignissim elit eum genitus natu singularis. Diam si tation. Exputo fere modo populus saluto.<\/p>\n<p>Adipiscing commoveo immitto vindico. Aliquam brevitas cui gilvus metuo pagus pala ratis si. Genitus ille immitto lobortis natu refoveo roto si tamen ut. Amet dolor lucidus. Aliquip consectetuer esca facilisi in interdico similis vicis. Distineo ille paulatim tamen. Dolus eros exerci interdico singularis utrum. Exerci feugiat venio. Dolor esse incassum lucidus luctus nobis quis venio volutpat. Obruo os vulputate. Consectetuer diam neque.<\/p>\n<p>Fere hendrerit ibidem mauris olim premo vereor volutpat. Comis cui dignissim iriure pala proprius tego uxor velit. Aptent illum immitto iustum. Eum illum paulatim. Cogo comis ille paratus. Importunus neo olim pneum. Aliquip capto erat olim secundum ymo.<\/p>\n<p>Blandit comis pecus uxor. Gravis plaga pneum validus vulpes. Aliquip plaga torqueo. Augue gravis inhibeo jus ludus nulla plaga veniam. Cogo humo ludus pala quae saepius ullamcorper vicis wisi.<\/p>\n"
+        }
+    ],
+    "field_video_link": [
+        {
+            "uri": "http:\/\/www.lopefrow.info",
+            "title": "",
+            "options": []
+        }
+    ]
+}

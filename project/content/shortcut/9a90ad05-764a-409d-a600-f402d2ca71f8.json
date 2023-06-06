@@ -1,0 +1,55 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/admin\/config\/user-interface\/shortcut\/link\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/8080-angelrq-proyectodrupal-59b8qeila3i.ws-us98.gitpod.io\/rest\/type\/shortcut\/default"
+        }
+    },
+    "id": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9a90ad05-764a-409d-a600-f402d2ca71f8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "shortcut_set": [
+        {
+            "target_id": "default"
+        }
+    ],
+    "title": [
+        {
+            "value": "Add content",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": -20
+        }
+    ],
+    "link": [
+        {
+            "uri": "internal:\/node\/add",
+            "title": null,
+            "options": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ]
+}
