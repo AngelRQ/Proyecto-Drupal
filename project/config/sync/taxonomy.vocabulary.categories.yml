@@ -1,0 +1,8 @@
+uuid: dcaee044-2c6b-4358-b84e-3346cd821454
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Esta taxonomía es para crear categorías de los blogs, videos, post, etc.'
+weight: 0

@@ -1,0 +1,28 @@
+uuid: 1e53b563-db10-40cc-b316-57360b74ca05
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.landingpage_galleryvideo.field_video_category
+    - field.field.node.landingpage_galleryvideo.field_video_description
+    - field.field.node.landingpage_galleryvideo.field_video_file
+    - field.field.node.landingpage_galleryvideo.field_video_link
+    - node.type.landingpage_galleryvideo
+  module:
+    - user
+id: node.landingpage_galleryvideo.teaser
+targetEntityType: node
+bundle: landingpage_galleryvideo
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_video_category: true
+  field_video_description: true
+  field_video_file: true
+  field_video_link: true
