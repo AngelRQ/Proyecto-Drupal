@@ -1,4 +1,4 @@
-uuid: 4c92102e-74cf-4a25-87b6-3a423329aeb6
+uuid: c0174449-4f76-4c01-aa63-e06796b1d4e4
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - angel.rodriguez@ucr.ac.cr
+  - proyectoDrupal@gmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'

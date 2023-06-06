@@ -1,8 +1,0 @@
-uuid: 84071b84-7b41-4292-8a7e-7f2a15d4bc08
-langcode: en
-status: true
-dependencies: {  }
-name: Licencias
-vid: licencias
-description: 'Vocabulario para categorizar las licencias '
-weight: 0

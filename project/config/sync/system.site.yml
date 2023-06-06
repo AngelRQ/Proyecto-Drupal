@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: add8b9eb-2823-47d6-8ba4-ddc689815db3
-name: Lab2-Drupal
-mail: angel.rodriguez@ucr.ac.cr
+uuid: 893d9664-ef62-4828-b464-b18d8fa40fb6
+name: 'Proyecto Drupal'
+mail: proyectoDrupal@gmail.com
 slogan: ''
 page:
   403: ''
