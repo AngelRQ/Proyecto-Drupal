@@ -1,0 +1,18 @@
+uuid: b4f44243-e45f-480e-9e26-d770edb1828e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: LandingPage-galleryVideo
+type: landingpage_galleryvideo
+description: 'Tipo de contenido landing page para la galeria de videos'
+help: ''
+new_revision: true
+preview_mode: 2
+display_submitted: true

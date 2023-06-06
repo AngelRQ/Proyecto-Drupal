@@ -1,0 +1,29 @@
+uuid: ce482449-d086-4f4a-bc41-a366bb5bc3f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_category
+    - node.type.landingpage_galleryvideo
+    - taxonomy.vocabulary.categories
+id: node.landingpage_galleryvideo.field_video_category
+field_name: field_video_category
+entity_type: node
+bundle: landingpage_galleryvideo
+label: 'Video category'
+description: 'Este campo es para la categoría a la que pertenece un video, puede tener dos categorías'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categories: categories
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

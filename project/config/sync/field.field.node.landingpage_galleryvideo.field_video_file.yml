@@ -1,0 +1,29 @@
+uuid: ea7cf426-d9b6-48f8-b3b7-f031e84ce480
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video_file
+    - media.type.video
+    - node.type.landingpage_galleryvideo
+id: node.landingpage_galleryvideo.field_video_file
+field_name: field_video_file
+entity_type: node
+bundle: landingpage_galleryvideo
+label: 'Video file'
+description: 'Este campo es para agregar un archivo de video'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      video: video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: remote_video
+field_type: entity_reference

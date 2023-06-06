@@ -1,0 +1,18 @@
+uuid: 00baba5d-8322-43bc-bedd-277ec0bd31a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.landingpage_galleryvideo
+id: node.landingpage_galleryvideo.title
+field_name: title
+entity_type: node
+bundle: landingpage_galleryvideo
+label: Video-title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
